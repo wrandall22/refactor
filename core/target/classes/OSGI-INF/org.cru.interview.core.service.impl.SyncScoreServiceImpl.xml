@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.cru.interview.core.service.impl.SyncScoreServiceImpl">
+        <implementation class="org.cru.interview.core.service.impl.SyncScoreServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="org.cru.interview.core.service.SyncScoreService"/>
+        </service>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="org.cru.interview.core.service.impl.SyncScoreServiceImpl"/>
+    </scr:component>
+</components>
